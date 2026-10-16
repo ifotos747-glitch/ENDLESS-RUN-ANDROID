@@ -1,0 +1,6 @@
+{
+  "appId": "com.endlessrun.game",
+  "appName": "ENDLESS RUN",
+  "webDir": "www",
+  "server": { "androidScheme": "https" }
+}

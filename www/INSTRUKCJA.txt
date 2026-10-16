@@ -1,0 +1,15 @@
+ENDLESS RUN -> APK przez GitHub Actions
+
+1. Otworz katalog www i ZASTAP testowy index.html prawdziwym index.html gry.
+2. Skopiuj do www rowniez foldery z grafikami, JS, CSS, dzwiekami itd., zachowujac sciezki wzgledne.
+3. Wyslij ZAWARTOSC tego folderu projektu do repozytorium GitHub (w tym ukryty katalog .github).
+4. GitHub: Actions -> Build ENDLESS RUN APK -> Run workflow.
+5. Po udanej kompilacji pobierz artefakt ENDLESS-RUN-test-APK i rozpakuj ZIP.
+6. Zainstaluj app-debug.apk na Androidzie i przetestuj.
+
+UWAGA:
+- To jest TESTOWE debug APK podpisane kluczem developerskim. Nie nalezy traktowac go jako finalnego pliku do publikacji w APKPure.
+- Do publikacji zbuduj podpisane release APK z WLASNYM stalym kluczem podpisu. Zachowaj klucz i hasla do przyszlych aktualizacji.
+- Nie wrzucaj prywatnych kluczy ani hasel do publicznego repozytorium.
+- Unikalny appId w capacitor.config.json ustaw przed pierwsza publikacja.
+- Obecny www/index.html to tylko ekran testowy, NIE prawdziwa gra.
